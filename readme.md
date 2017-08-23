@@ -9,3 +9,6 @@
 [Link to google](http://www.google.com)
 
 ### [github](http://www.github.com)
+
+
+[Week 1 Readme](https://github.com/bellahalili/cim540/blob/master/week1/readme.md)
