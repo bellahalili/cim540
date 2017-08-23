@@ -12,3 +12,5 @@
 
 
 [Week 1 Readme](https://github.com/bellahalili/cim540/blob/master/week1/readme.md)
+
+![Penguin Image](http://dfp3r41v9wmfi.cloudfront.net/wp-content/uploads/emperor_chicks.jpg)
