@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<html>
+
+<head>
+	<title>Doggy Age Calculator</title>
+
+	<style>
+
+
+	</style>
+</head>
+
+
+<body>
+
+	<h1>Doggy Age Calculator</h1>
+
+	<p><i>Input your age, and we'll tell you how old you are in dog years.</i></p>
+
+	<form>
+		<label for="age">Enter your age:</label>
+		<input type="text" name="age" id="age">
+		<br><br>
+		<button type="button" id="lButton">Enter age</button>
+	</form>
+
+	<div id="output"></div>
+
+	<script>
+		//First, I need to know the person's human age by using a text input. User will click a button to submit answer. The 		button clicking will initiate a claculation function. The value of the form input needs to be in my function. I'll take 		the number and multiply it by 7. The message the user will recieve back will be their age in dog years.
+
+		function yourdogAge(){
+			var ageValue = document.getElementById("age").value;
+			console.log("age value: " + ageValue);
+
+			var ageRatio = parseInt(ageValue * 7);
+
+			ageRatio = Math.round(ageRatio);
+
+			//console.log(ageRatio);
+
+			var message = "You are " + (ageValue * 7) + " in dog years!";
+
+			var outputText  = document.getElementById("output");
+			outputText.innerHTML = message;
+
+		}
+
+	var getButton = document.getElementById("lButton");
+	getButton.addEventListener("click", yourdogAge);
+
+	</script>
+</body>
+</html>
+
+</DOCTYPE>
